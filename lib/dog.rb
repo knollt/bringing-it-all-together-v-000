@@ -72,6 +72,9 @@ class Dog
       SQL
     
     DB[:conn].execute(sql,name,breed)
+    
+    if dog
+      
   end   
   
   
